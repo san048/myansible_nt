@@ -1,0 +1,22 @@
+---
+- mystudents:
+   - name: san 
+     phno: 427534457
+     address: 
+      doorno: 104
+      streetno: 3
+      pincode: 521137
+
+   - name: samwell
+     phno: 6743758
+     address:
+      doorno: 103
+      streetno: 5
+      pincode: 521116
+
+   - name: jon
+     phno: 55765689679
+     address:
+      doorno: 658
+      streetno: 6
+      pincode: 521137
