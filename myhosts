@@ -10,9 +10,3 @@
 172.32.09.678
 172.32.10.578
 
-
-
-[mywebservers:vars]
-var = vale
-mywebpackonubuntu=nginx
-mywebpackonRedHat=httpd
