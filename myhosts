@@ -1,3 +1,18 @@
 [mywebservers]
 172.31.19.214
 172.31.28.127
+
+[myappservers]
+172.32.19.200
+172.32.19.207
+
+[myDBservers]
+172.32.09.678
+172.32.10.578
+
+
+
+[mywebservers:vars]
+var = vale
+mywebpackonubuntu=apache2
+mywebpackonRedHat=httpd
