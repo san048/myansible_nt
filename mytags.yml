@@ -1,0 +1,21 @@
+---
+- hosts: 172.31.19.214
+  become: yes
+  task:
+  - name: install git
+    apt:
+     name: git
+     state: present
+     tags: mygit
+
+  - name: install tree 
+    apt:
+     name: tree
+     state: present
+     tags: mytree
+
+  - name: isntall wget
+    apt:
+     name: wget
+     state: present
+     tags: mywget
