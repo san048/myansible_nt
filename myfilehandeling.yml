@@ -1,0 +1,9 @@
+---
+- hosts: 172.31.19.214
+  become: yes
+  tasks:
+  - name: create a file
+    file:
+      path: /home/ubuntu
+      state: touch
+      
