@@ -6,7 +6,7 @@
 
 - name: copy conext file into node side
   template:
-       src: template/mytomcontext.j2
+       src: templates/mytomcontext.j2
        dest: /opt/tomcat/webapps/manager/META-INF/context.xml
 
 
