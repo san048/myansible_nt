@@ -4,13 +4,13 @@
        src: template/mytomuser.j2
        dest: /opt/tomcat/conf/tomcat-users.xml
 
-- name: copy context file into node side
+- name: copy conext file into node side
   template:
        src: template/mytomcontext.j2
        dest: /opt/tomcat/webapps/manager/META-INF/context.xml
 
 
-- name: copy host context file into node side 
+- name: copy host conext file into node side 
   template:
        src: template/mytomhostcontext.j2
        dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
