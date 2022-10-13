@@ -1,0 +1,6 @@
+---
+- name: deploy java application
+  get_url:
+    url: http://maha27aug22.s3.us-east-2.amazonaws.com/gameoflife.war
+    dest: /opt/tomcat/webapps
+    force_basic_auth: yes
